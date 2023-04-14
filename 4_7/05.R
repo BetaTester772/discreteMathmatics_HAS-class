@@ -4,8 +4,8 @@ A[lower.tri(A, diag=FALSE)] <- 0
 A
 
 # 2번
-a <- matrix(c(0, 1, 0, 0), nrow=2, ncol=2)
-b <- matrix(c(0, 0, 0, 1), nrow=2, ncol=2)
+a <- matrix(c(1, 1, -1, -1), nrow=2, ncol=2)
+b <- matrix(c(1, 1, 1, 1), nrow=2, ncol=2)
 
 a
 b
